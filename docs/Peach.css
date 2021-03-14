@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+#box_black {
+   background-color: black;
+   padding-top: 200px;
+   margin-top: 110px;
+}
+.now {
+   color:#fdfeff; 
+   font-weight:200; 
+   font-family: "Gochi hand", cursive; 
+   font-size: 164px; 
+   top: 32px; 
+   position: absolute; 
+   left: 23px; 
+   text-decoration: none;
+} 
+.nico {
+   color:#2b4888; 
+   font-family: "Poiret One", cursive; 
+   text-decoration: none; 
+   position: absolute; 
+   font-size: 60px; 
+   top:90%;
+}
+.are {
+   color:#d8b827; 
+   font-family: "Sacramento", cursive; 
+   position: absolute; 
+   font-size: 182px; 
+   top: 299px;
+} 
+html {
+   background: linear-gradient(to left, blue, cyan); 
+   overflow: scroll; 
+}
+#input_username {
+   background-color: #ffffff;
+   position: relative;
+   bottom: 50px;
+   background-color: rgb(0, 0, 0);
+   border: 0px;
+   left: 40px;
+   transition: background-color .4s, font-size .4s;
+   font-family: "Poiret One";
+}
+#input_username:hover {
+   background-color: #ffffff;
+   transition: background-color .4s, font-size .4s;
+   font-size: 60px;
+}
+#input_password {
+   background-color: #ffffff;
+   position: relative;
+   bottom: 50px;
+   background-color: black;
+   border: 0px;
+   left: 40px;
+   transition: background-color .4s;
+}
+#input_password:hover {
+   background-color: white;
+   transition: background-color .4s;
+   color: #130a68;
+}
+#answer_box {
+   position: relative;
+   color: #000000;
+   bottom: 31px;
+   background-color: #050404;
+   margin-left: 10cm;
+   font-family: "Poiret One";
+   transition: color .4s;
+}
+#answer_box:hover {
+   color: cyan;
+   transition: color .4s;
+}
